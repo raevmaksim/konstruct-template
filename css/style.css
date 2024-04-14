@@ -445,16 +445,102 @@ body {
   }
   .header__sub-title {
     margin-bottom: 38px;
-}
+  }
   .navbar__flex {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .about__flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__article {
+  width: 568px;
+  }
+  .text_p {
+    margin-bottom: 50px;
+  }
+  .about__card {
+    width: 200px;
+  }
+  .services {
+    padding-bottom: 0px;
+  }
+  .services__flex {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .services__line {
+    margin: 0 auto;
+  }
+  .services__text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .services__title_item {
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+  .contacts {
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 /* Медиа запросы для смартфонов */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .header__title {
     width: 350px;
+  }
+  .about__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .newsletter__flex {
+    flex-direction: column;
+  }
+  .newsletter__title {
+    margin-bottom: 25px;
+  }
+  .footer__flex {
+    flex-direction: column;
+  }
+  .footer__title {
+    margin-left: 35px;
+  }
+  .footer__logo {
+    margin: 0 auto 10px;
+  }
+  .company__text {
+    max-width: 430px;
+    text-align: center;
+    margin: 0 auto 25px;
+  }
+  .links__flex {
+    justify-content: space-around;
+  }
+  .links__title {
+    margin-bottom: 19px;
+  }
+  .footer__contact-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .contact__adress, .footer__phone {
+    margin-bottom: 0;
+  }
+  .networcks__flex {
+    justify-content: space-evenly;
   }
 }
 
