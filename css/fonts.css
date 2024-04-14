@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/OpenSans-ExtraBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/OpenSans-Bold.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/OpenSans-SemiBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'OpenSansMedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/OpenSans-Medium.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'OpenSansRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/OpenSans-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: 'BebasNeueRegular';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(../fonts/BebasNeue-Regular.ttf) format(truetype);
+}
